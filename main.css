@@ -1,0 +1,263 @@
+.uppercase {
+    text-transform: uppercase!important;
+}
+
+.N__custom_logo1 {
+    width: 70px !important;
+}
+
+.no-wrap {
+    white-space: nowrap
+}
+
+a {
+    color: #000
+}
+
+a, a:hover {
+    text-decoration: none
+}
+
+a:hover {
+    color: #0f0f0f
+}
+
+::-moz-selection {
+    background-color: #f2f2f2;
+    color: #000
+}
+
+::selection {
+    background-color: #f2f2f2;
+    color: #000
+}
+
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+.Wrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+@media (max-width: 500px) {
+    .Wrap {
+        max-height: auto;
+        min-height: 80vh;
+        margin-top: 80px
+    }
+}
+
+.template-password .Wrap {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr
+}
+
+.B__container {
+    margin: 0 auto;
+    width: 100%;
+    position: relative
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 15px;
+    font-weight: 4400
+}
+
+.Loader {
+    transition: opacity .3s ease;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+    border: 2px solid #4d4d4d;
+    border-top-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 1.4s linear infinite;
+    animation: spin 1.4s linear infinite
+}
+
+
+#launcher-frame {
+    height: 0 !important;
+    transform: translateY(200px)
+}
+
+.container {
+    padding: 0 14px;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: block;
+    max-width: 860px
+}
+
+.container1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container:after {
+    clear: both;
+    content: "";
+    display: table
+}
+
+.petitcon {
+    right: 21%;
+    position: fixed;
+    top: -4px;
+    z-index: 100;
+}
+
+body {
+    background-color: #fff;
+    margin-left: 10%;
+    width: 80vw;
+    color: #000;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 80%;
+    background-attachment: fixed
+}
+
+
+html {
+    padding-bottom: 0 !important
+}
+
+.Header {
+    height: 156px;
+    width: 100%
+}
+
+
+.nav-container {
+    display: initial;
+    width: 40vw;
+    position: fixed;
+    z-index: 99;
+    top: 12px;
+    left: 15%;
+    animation: 0.80s ease 0s 1 slideleft;
+}
+
+.site-nav--has-dropdown {
+    position: static;
+    padding: 14px 18px;
+}
+
+.list--inline {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+
+.site-nav {
+
+    position: relative;
+    text-align: left;
+    padding-left: 28px;
+}
+
+a.N__link {
+    position: fixed;
+    padding: 25px 51px;
+    letter-spacing: .17em;
+    text-transform: uppercase;
+    z-index: 100;
+    transition: all .8s ease
+}
+a.N__link1 {
+    position: fixed;
+    padding: 45px 46px;
+    letter-spacing: .17em;
+    text-transform: uppercase;
+    z-index: 100;
+    transition: all .8s ease
+}
+
+
+@keyframes slidewalou {
+    0% {
+        transform: translate(50%, -100%)
+    }
+    to {
+        transform: translate(50%, 0%)
+    }
+}
+
+.hourdisplay {
+    position: fixed;
+    top: 115px;
+    right: 50%;
+    transform: translateX(49%);
+
+}
+
+.leftcorner1 {
+    position: absolute;
+    top: 47px;
+    right: 25px;
+}
+
+.leftcorner2 {
+    position: fixed;
+    top: 47px;
+    left: 25px;
+}
+
+
+a.N__top_center {
+    top: 0;
+    z-index: 100;
+    right: 50%;
+    transform: translateX(50%);
+    animation: 0.80s ease 0s 1 slidewalou;
+
+}
+
+
+@keyframes slideleft {
+    0% {
+        transform: translateX(-100%)
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+@keyframes slideright {
+    0% {
+        transform: translateX(100%)
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+a.N__top_right {
+    cursor: pointer;
+    animation: 0.80s ease 0s 1 slideright;
+
+}
+
+a.N__bottom_right {
+    bottom: 0;
+    right: 0;
+    animation: 0.80s ease 0s 1 slideright;
+}
