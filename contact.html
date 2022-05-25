@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Not Brand For Money Contact">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap" rel="stylesheet">
+    <link href="main.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body >
+    <nav class="MainNavigation">
+        <div class="navcontain">
+            <div class="logo-container">
+                <a href="index.html" aria-label="Homepage" class="logo">
+                    <img src="img/roger-roger-logo.png?v=1606759885">
+                </a>
+            </div>
+            <nav class="nav-container">
+                <ul class="site-nav ">
+                    <li class="site-nav--has-dropdown list--inline">
+                        <a href="produit.html" class="Text_None">Product</a>
+                    </li>
+    
+                    <li class="site-nav--has-dropdown list--inline">
+                        <a href="contact.html" class="Text_None">Contact</a>
+                    </li>
+    
+                    <li class="site-nav--has-dropdown list--inline">
+                        <a href="about.html" class="Text_None">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </nav>
+
+<section>
+
+    <div class="Envoyez-nous un message !">
+        <h1>Envoyez-nous un message !</h1>
+        <p>Si vous avez une question concernant votre commande, les produits, l'expédition et les retours, les méthodes de paiement ou tout autre sujet, n'hésitez pas à nous en faire part. Il vous suffit de nous envoyer un courriel à support@notbrandformoney.com, et nous vous répondrons dans les plus brefs délais.</p>
+        <form action="/page-traitement-donnees" method="post">
+        <div>
+        <label for="nom">Numéro de commande</label>
+        <input type="text" id="nom" name="nom" required>
+        </div>
+        <div>
+        <label for="email">Votre e-mail</label>
+        <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+        <label for="sujet">Quel est le sujet de votre message ?</label>
+        <select name="sujet" id="sujet" required>
+        <option value="" disabled selected hidden>Choisissez le sujet de votre message</option>
+        <option value="probleme-compte">Problème de Livraison</option>
+        <option value="question-produit">Question à propos d’un produit</option>
+        <option value="suivi-commande">Collaboration</option>
+        <option value="autre">Autre...</option>
+        </select>
+        </div>
+        <div>
+        <label for="message">Votre message</label>
+        <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+        <button type="submit">Envoyer mon message</button>
+        </div>
+        </form>
+        </div>
+
+</section>
+    <footer>
+        <div class="container__footer">
+            <div class="Social-Container">
+                <img class="Social-Icons" src="img/instagram.svg" alt="">
+                <img class="Social-Icons" src="img/facebook.svg" alt="">
+                <img class="Social-Icons" src="img/twitter.svg" alt="">
+            </div>
+            <div class="Text-container">
+                <p>© 2022, Not Brand For Money</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
