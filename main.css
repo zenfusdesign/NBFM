@@ -105,7 +105,7 @@ body {
 
 .Product__Cart {
     background-color: aqua;
-    width: 400px;
+    width: 425px;
     margin: 40px;
     height: 300px;
     cursor: pointer;
@@ -189,8 +189,18 @@ img {
 }
 
 .details {
-   margin-top: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
     width: 100%;
+}
+
+.details2 {
+    margin-left: 30px;
+    width: 100%;
+}
+
+.image-left {
+    width: 50%;
 }
 
 /* Css de Lili-Rose */
